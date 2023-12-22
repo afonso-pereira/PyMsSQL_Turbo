@@ -16,4 +16,5 @@ It worked very well on the flask project I created it for, and I thought it coul
 
 ## What is missing?
 I didn't add yet a scape for when the query is an INSERT or an UPDATE, but that is on my todo list and should be added soon.
+
 I also believe that a connection pooling should be added, as currently we only use a single connection at a time. This decision was mainly based due to the low load the app this was built for is actually going to have.
